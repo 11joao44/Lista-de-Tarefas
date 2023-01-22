@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(160deg, #d933c0, #5138a2, #1960a3,#4fabf7);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    font-size: 12.5px;
+    color: #fff;
+}
+
+.container {
+    background-image: linear-gradient(160deg, #4c4f527f, #474d5281,#3b3d44be);
+    box-shadow: 0px 0px 12px 1px #000000;
+    overflow-y: auto;
+    max-height: 500px;
+    max-width: 800px;
+    margin: 2.5% auto;
+    margin-bottom: 100px;
+    padding: 25px;
+    border-radius: 1%;
+    display: none;
+}
+
+::-webkit-scrollbar {
+    background-color: #1d1d1d;
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    border-radius: 5px;
+}
+
+.header {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 80px;
+    font-family: 'Viga', sans-serif;
+    text-transform: uppercase;
+    color: #ffffffb5;
+    display: none;
+}
+
+hr {
+    margin: auto 38%;
+    opacity: 20%;
+}
+
+.campoAdd{
+    font-family: 'Play', sans-serif;
+    background: rgba(62, 62, 62, 0.156);
+    padding: 10px 30px;
+    border-radius: 5%;
+    opacity: 80%;
+    display: flex;
+    box-shadow: 0px 0px 5px 1px #00000096;
+}
+
+.campoAdd button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #e2e2e2;
+    border: none;
+    font-family: 'Viga', sans-serif;
+    font-size: .91em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.campoAdd button:hover {
+    transition: 1s;
+    font-size: .95em;
+    transform: scale(102%);
+}
+
+.fa-plus {
+    padding-right: 5px;
+    font-size: 1.4em;
+}
+
+.add {
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    color: #cfcfcf
+}
+
+.add::placeholder {
+    color: #d2d2d243;
+}
+
+.fa-trash-alt:hover {
+    transition: .8s;
+    transform: scale(120%);
+}
+
+.fa-check:hover {
+    transition: .8s;
+    transform: scale(130%);
+}
+
+h3 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-family: 'Play', sans-serif;
+    color: #c7c6c6;
+}
+
+.tarefa {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    background: #ffffffa7;
+    box-shadow: 5px 5px 8px 1px #00000096;
+    padding: 18px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.divisão {
+    margin: 35px 10px 5px;
+
+}
+
+.data {
+    font-size: 1.1em;
+    font-family: 'Play', sans-serif;
+    color: #dedede;
+}
+
+.tarefa i {
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.completo .tarefa {
+    background: rgba(0, 0, 0, 0.541);
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.clearAll {
+    float: right;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ef151589;
+    color: #dfdcdc;
+    border: none;
+    font-family: 'Viga', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: none;
+}
+
+.hr {
+    margin: 10px 50px;
+    opacity: 50%;
+}
+
+.iniciar {
+    text-align: center;
+    color: #ffffffe0;
+    background-image: linear-gradient(160deg, #161616bc, #1b1d1fbd,#22232adc);
+    box-shadow: 0px 0px 12px 1px #000000;
+    max-width: 500px;
+    margin: 12% auto;
+    padding: 25px;
+    border-radius: 1%;
+    font-family: 'Viga', sans-serif;
+}
+
+.descrição {
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.iniciar button {
+    padding: 20px 180px;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-top: 40px;
+    background-color: #d4d4d4;
+    border: none;
+    font-family: 'Viga', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.iniciar button:hover {
+    box-shadow: 0px 0px 5px 1px #ffffff;
+    background-color: #edebeb;
+    transition: 1s ease;
+    transform: scale(103%);
+}
